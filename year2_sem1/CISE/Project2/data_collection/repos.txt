@@ -1,0 +1,14 @@
+https://github.com/django/django
+https://github.com/pandas-dev/pandas
+https://github.com/matplotlib/matplotlib
+https://github.com/numpy/numpy
+
+https://github.com/apache/maven
+https://github.com/jenkinsci/jenkins
+https://github.com/mockito/mockito
+https://github.com/apache/tomcat
+
+https://github.com/dotnet/roslyn
+https://github.com/PowerShell/PowerShell
+https://github.com/AvaloniaUI/Avalonia
+https://github.com/mono/mono

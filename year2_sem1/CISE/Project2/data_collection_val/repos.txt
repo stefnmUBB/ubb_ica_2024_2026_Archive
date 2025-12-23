@@ -1,0 +1,7 @@
+https://github.com/jellyfin/jellyfin
+https://github.com/microsoft/calculator
+https://github.com/JamesNK/Newtonsoft.Json
+https://github.com/mathnet/mathnet-numerics
+https://github.com/DapperLib/Dapper
+https://github.com/xunit/xunit
+https://github.com/SixLabors/ImageSharp
