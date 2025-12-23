@@ -1,0 +1,4 @@
+from source.embeddings import compute_wordpiece_embeddings
+from source import fileutils
+
+compute_wordpiece_embeddings(fileutils.OUTPUT_WORDPIECES, fileutils.OUTPUT_WORDPIECE_EMBEDDINGS)
