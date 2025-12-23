@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="DPML_Proj1.CSP.Graphing.ConstraintGraph" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Graphing\ConstraintGraph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Graphing.ConstraintGraphExtensions" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Graphing\ConstraintGraphExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.Constraint">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <Members>
+      <Method Name="Constraint" Hidden="true" />
+      <Method Name="ExtractValues" Hidden="true" />
+      <Method Name="IsUnaryConstraintOf" Hidden="true" />
+      <Method Name="Of" Hidden="true" />
+      <Method Name="ReplaceVariables" Hidden="true" />
+      <Method Name="ReplaceVariablesByName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAgAAAAAAGoAAAAQAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Constraint.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Variables" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.FunctionConstraint" Collapsed="true">
+    <Position X="7" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAACAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.IntConstraint" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAACAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.ConstraintBuilder" Collapsed="true">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAQAAAAAkAAgAAAAAAAAAAADAAQAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.Domain">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <Members>
+      <Method Name="Domain" Hidden="true" />
+      <Method Name="FromValues" Hidden="true" />
+      <Field Name="fValues" Hidden="true" />
+      <Method Name="IntRange" Hidden="true" />
+      <Method Name="StringLabels" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAhAAAAAAAAAAAAAAAgABAAAAA=</HashCode>
+      <FileName>CSP\Model\Domain.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Values" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.Label" Collapsed="true">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAQgAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Label.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Value" />
+      <Field Name="Variable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.CompoundLabel" Collapsed="true">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAECAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Label.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Labels" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.VariableNotFoundException" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Label.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.Problem">
+    <Position X="5.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAQAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Problem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Variables" />
+      <Field Name="Constraints" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.ProblemBuilder" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAgBAAACQAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Problem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.Value" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Value.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.TypedValue&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAEAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Value.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Model.Variable">
+    <Position X="5.5" Y="6.75" Width="1.5" />
+    <Members>
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Variable" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Model\Variable.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Domain" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Reducers.AC3Reducer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Reducers\AC3Reducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Reducers.GeneralizedArcConsistencyReducer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Reducers\GeneralizedArcConsistencyReducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Reducers.NodeConsistencyReducer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Reducers\NodeConsistencyReducer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Reducers.ProblemExtensions" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Reducers\ProblemExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Solvers.BacktrackingSolver" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAE=</HashCode>
+      <FileName>CSP\Solvers\BacktrackingSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Solvers.ForwardCheckingSolver" Collapsed="true">
+    <Position X="3" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAIAAAAAQAAAAAAAEAAAAA=</HashCode>
+      <FileName>CSP\Solvers\ForwardCheckingSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Solvers.HeuristicRepairSolver" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAQAAAAICAAAAACAAAAAAACAAAA=</HashCode>
+      <FileName>CSP\Solvers\HeuristicRepairSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Solvers.CspSolution" Collapsed="true">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABBAAAAAAAAAEAAAAAAgAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>CSP\Solvers\ICspSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Solvers.OperationControl" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>CSP\Solvers\ICspSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Solvers.CspSolver">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAQgIAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Solvers\ICspSolver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Solvers.ProblemExtensions" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Solvers\ProblemExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPML_Proj1.CSP.Utils.Extensions" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>CSP\Utils\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DPML_Proj1.CSP.Reducers.IReducer">
+    <Position X="14" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Reducers\IReducer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DPML_Proj1.CSP.Solvers.ICspSolver">
+    <Position X="5.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Solvers\ICspSolver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="DPML_Proj1.CSP.Solvers.OnCandidateInspected" Collapsed="true">
+    <Position X="1.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>CSP\Solvers\ICspSolver.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
